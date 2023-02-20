@@ -37,9 +37,76 @@
     </style>
 </head>
 <body>
-    <div class="container-fluid d-flex">
+<div class="container-in">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand "><img class="w-25" src="download.png" alt="coursera" area-hidden="true">
+      </div>
+      <div class="dropdown d-inline-block">
+        <div class="mr-2">
+            <button class="btn btn-primary  dropdown-toggle w-100" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Explore
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <dl>
+                    <dt>Goals</dt>
+                    <dd>Take a free course</dd>
+                    <dd>Earn Degree</dd>
+                    <dd>Earn Certificate</dd>
+                    <dd>Advance your career</dd>
+                    <dd>Find your career</dd>
+                    <dt>Subject</dt>
+                    <dd>Data Science</dd>
+                    <dd>Computer Science</dd>
+                    <dd>Information Technology</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <form class="form-inline my-2 my-lg-0 mr-4">
+      <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0 " type="submit">Search</button>
+    </form>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true"> Online Degrees</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="#">Online Degree</a>
+              <a class="dropdown-item" href="#">Master Track</a>
+              <a class="dropdown-item" href="#">University Certificates</a>
+          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FindyourNewCareer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">For Enterprise</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="#">For University</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary" href="#">Log In</a>
+        </li>
+        <button class="btn btn-primary  dropdown-toggle" type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Join For Free
+    </button>
+      </ul>
+     
+    </div>
+  </nav>
+
+    <!-- NavBar -->
+  <!-- <div class="container-fluid d-flex">
+    
         <div class="col-5 mt-4">
-            <nav class="navbar navbar-expand-sm  navbar-light justify-content-space-between">
+            <nav class="navbar navbar-expand-sm navbar-light justify-content-space-between">
                 <div class="navbar-brand "><img class="w-25" src="download.png" alt="coursera" area-hidden="true">
                     <div class="dropdown d-inline-block">
                         <div class="">
@@ -69,9 +136,9 @@
             </nav>
         </div>
         <div class="col-7 mt-4">
-            <ul class="navbar-nav navbar-expand  my-navbar">
+            <ul class="navbar-nav navbar-expand-sm  my-navbar">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-secondary mt-3 ml-5" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-secondary mt-3 ml-2" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true"> Online Degrees</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item " href="#">Online Degree</a>
@@ -82,10 +149,10 @@
                     <a class="nav-link text-secondary  text-secondary  ml-3 mt-3" href="#">FindyourNewCareer</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-secondary ml-2 mt-3 href="#">For Enterprise</a>
+                    <a class="nav-link text-secondary ml-3 mt-3" href="#">For Enterprise</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-secondary ml-2 mt-3" href="#">ForUniversity</a>
+                    <a class="nav-link text-secondary ml-3 mt-3" href="#">ForUniversity</a>
                 </li>
                 <li class="nav-item mt-4">
                     <a class="ml-2" href="#">Log In</a>
@@ -97,7 +164,8 @@
             </ul>
             </nav>
         </div>
-    </div>
+  </div>
+   -->
     <!-- FIRST  -->
     <div class="container-fluid">
         <div class="row border mt-5 ml-5 ">
@@ -384,19 +452,19 @@
                         <div class="col-3">
                             <div class="d-flex">
                                 <img class="w-50" src="language_learning.png" alt="">
-                                <div class=""style="color: black;"><div class="font-weight-bold ">Language Learning</div>150 courses</div>
+                                <div class="ml-3"style="color: black;"><div class="font-weight-bold ">Language Learning</div>150 courses</div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="d-flex">
                                 <img class="w-50" src="information_technology.jfif" alt="">
-                                <div class=""style="color: black;"><div class="font-weight-bold">Information Technology</div>145 courses</div>
+                                <div class="ml-3"style="color: black;"><div class="font-weight-bold">Information Technology</div>145 courses</div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="d-flex">
                                 <img class="w-50" src="math_and_logic.png" alt="">
-                                <div class=""style="color: black;"><div class="font-weight-bold">Math and Logic</div>70 courses</div>
+                                <div class="ml-3"style="color: black;"><div class="font-weight-bold">Math and Logic</div>70 courses</div>
                             </div>
                         </div>
                     </div>
@@ -425,7 +493,7 @@
                   <!-- Eight Section -->
 
 
-                  <div class="font-weight-bold mt-5">
+                  <div class="font-weight-bold mt-5 ml-3">
                     <h2>From the Coursera community</h2>
                     <footer class="blockquote-footer mb-3">113+ million people have already joined Coursera</footer>
                   </div>
@@ -461,7 +529,7 @@
  <!-- Nine Section -->
 
 
-                  <div class="CourseraforBusiness mt-5">
+                  <div class="CourseraforBusiness mt-5 ml-3">
                     <div class="row">
                       <div class="col-md">
                         <div class="mb-5">
